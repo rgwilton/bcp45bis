@@ -4,9 +4,9 @@
 
 Network Working Group                                          L. Eggert
 Internet-Draft                                                    NetApp
-Obsoletes: 3005 (if approved)                              31 March 2021
+Obsoletes: 3005 (if approved)                               21 July 2021
 Intended status: Best Current Practice                                  
-Expires: 2 October 2021
+Expires: 22 January 2022
 
 
                       IETF Discussion List Charter
@@ -49,7 +49,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 2 October 2021.
+   This Internet-Draft will expire on 22 January 2022.
 
 Copyright Notice
 
@@ -88,9 +88,10 @@ Table of Contents
      5.2.  Informative References
    Appendix A.  Acknowledgements
    Appendix B.  Changes
-     B.1.  Since draft-eggert-bcp45bis-01
-     B.2.  Since draft-eggert-bcp45bis-00
-     B.3.  Since RFC3005
+     B.1.  Since draft-eggert-bcp45bis-02
+     B.2.  Since draft-eggert-bcp45bis-01
+     B.3.  Since draft-eggert-bcp45bis-00
+     B.4.  Since RFC3005
    Author's Address
 
 1.  Introduction
@@ -111,11 +112,11 @@ Table of Contents
 2.  Charter for the IETF Discussion List
 
    The IETF discussion list is meant for discussions for which a more
-   appropriate list does not exists, such as discussions that do not
-   fall within the area of any working group, area or other established
-   list.  When discussions are started on the IETF discussion list for
-   which such venues do exist, they should be moved there as soon as
-   this is pointed out.
+   appropriate list does not exist, such as discussions that do not fall
+   within the area of any working group, area or other established list.
+   When discussions are started on the IETF discussion list for which
+   such venues do exist, they should be moved there as soon as this is
+   pointed out.
 
    When no dedicated mailing list exists, it may be preferable to
    request the creation of one [NON-WG-LISTS] and only announce the
@@ -131,7 +132,7 @@ Table of Contents
       meetings, although most of these topics are better brought up on
       the discussion list for IETF LLC administrative issues
       [ADMIN-DISCUSS] or the attendee discussion list for a given IETF
-      meeting, such as [IETF110-ATTENDEES] for IETF-110.
+      meeting.
 
    *  Announcements of conferences, events, or activities that are
       sponsored or endorsed by the Internet Society or the IETF,
@@ -201,10 +202,6 @@ Table of Contents
               IETF, "IETF Discussion List", n.d.,
               <https://ietf.org/mailman/listinfo/ietf>.
 
-   [IETF110-ATTENDEES]
-              IETF, "Mailing List for IETF 110 Attendees", n.d.,
-              <https://ietf.org/mailman/listinfo/110attendees>.
-
    [LAST-CALLS]
               IETF, "IETF Last Calls", n.d.,
               <https://ietf.org/mailman/listinfo/last-call>.
@@ -235,7 +232,12 @@ Appendix A.  Acknowledgements
 
 Appendix B.  Changes
 
-B.1.  Since draft-eggert-bcp45bis-01
+B.1.  Since draft-eggert-bcp45bis-02
+
+   *  remove reference to the IETF 110 attendees list, since those lists
+      are being removed by the secretariat shoryly after each meeting
+
+B.2.  Since draft-eggert-bcp45bis-01
 
    *  applied a suggestion from Brian Carpenter
       (https://mailarchive.ietf.org/arch/msg/gendispatch/-
@@ -249,7 +251,7 @@ B.1.  Since draft-eggert-bcp45bis-01
       (https://mailarchive.ietf.org/arch/msg/
       gendispatch/64LgqlIk0h62mAK09Muqn1ccqRE/)
 
-B.2.  Since draft-eggert-bcp45bis-00
+B.3.  Since draft-eggert-bcp45bis-00
 
    *  added introduction, security considerations and IANA
       considerations sections
@@ -265,7 +267,7 @@ B.2.  Since draft-eggert-bcp45bis-00
    *  added references to the Note Well and relevant other policies that
       apply
 
-B.3.  Since RFC3005
+B.4.  Since RFC3005
 
    *  converted to Markdown and xml2rfc v3
 
