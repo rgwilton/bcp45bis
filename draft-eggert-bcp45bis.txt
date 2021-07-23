@@ -4,9 +4,9 @@
 
 Network Working Group                                          L. Eggert
 Internet-Draft                                                    NetApp
-Obsoletes: 3005 (if approved)                               21 July 2021
+Obsoletes: 3005 (if approved)                               23 July 2021
 Intended status: Best Current Practice                                  
-Expires: 22 January 2022
+Expires: 24 January 2022
 
 
                       IETF Discussion List Charter
@@ -49,7 +49,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 22 January 2022.
+   This Internet-Draft will expire on 24 January 2022.
 
 Copyright Notice
 
@@ -81,11 +81,12 @@ Table of Contents
 
    1.  Introduction
    2.  Charter for the IETF Discussion List
-   3.  Security Considerations
-   4.  IANA Considerations
-   5.  References
-     5.1.  Normative References
-     5.2.  Informative References
+   3.  Moderation
+   4.  Security Considerations
+   5.  IANA Considerations
+   6.  References
+     6.1.  Normative References
+     6.2.  Informative References
    Appendix A.  Acknowledgements
    Appendix B.  Changes
      B.1.  Since draft-eggert-bcp45bis-02
@@ -161,29 +162,53 @@ Table of Contents
    *  Announcements of conferences, events, or activities that are not
       sponsored or endorsed by the Internet Society or the IETF.
 
-3.  Security Considerations
+3.  Moderation
 
-   The IETF Chair, the IETF Executive Director, or a sergeant-at-arms
-   [SAA-SOP] appointed by the Chair is empowered to restrict posting by
-   a person, or of a thread, when the content is inappropriate and
-   represents a pattern of abuse [SAA-UPC].  They are encouraged to take
-   into account the overall nature of the postings by an individual and
-   whether particular postings are an aberration or typical.  Complaints
-   regarding their decisions should be referred to the IAB.
+   A sergeant-at-arms (SAA) is an officer appointed by a deliberative
+   body to keep order during its meetings [SAA-WIKIPEDIA].  SAAs for the
+   IETF discussion list are appointed by the IETF Chair and are
+   empowered to restrict posting by a person, or of a thread, when the
+   content is inappropriate and represents a pattern of abuse.  They are
+   encouraged to take into account the overall nature of the postings by
+   an individual and whether particular postings are an aberration or
+   typical.
 
-4.  IANA Considerations
+   The SAAs are intended to establish a self-moderation function on the
+   community, by the community.  The IETF Chair therefore should not
+   appoint an SAA who is serving in a NomCom-appointed IETF leadership
+   position.  If an SAA is selected for such a position, they will step
+   down as SAA.
+
+   Apart from appointing SAAs, the IETF Chair should divorce themselves
+   from the day-to-day operation and management of the SAA team.  This
+   has been in practice for a while, and the SAA team has independently
+   maintained definitions of abuse patterns [SAA-UPC] and operating
+   procedures [SAA-SOP] for them.  The SAA team should reach out to the
+   IETF Chair for any conflict resolution in a timely manner.
+
+   Because an SAA serves at the discretion of the IETF Chair - even if
+   the IETF Chair is not otherwise involved in the operation of the SAA
+   team - any SAA decision could be appealed to the IAB.  The IAB shall
+   then review the situation and attempt to resolve it in a manner of
+   its own choosing.
+
+4.  Security Considerations
+
+   This document does not raise any security issues.
+
+5.  IANA Considerations
 
    This document does not request any IANA actions.
 
-5.  References
+6.  References
 
-5.1.  Normative References
+6.1.  Normative References
 
    [RFC3005]  Harris, S., "IETF Discussion List Charter", BCP 45,
               RFC 3005, DOI 10.17487/RFC3005, November 2000,
               <https://datatracker.ietf.org/doc/html/rfc3005>.
 
-5.2.  Informative References
+6.2.  Informative References
 
    [ADMIN-DISCUSS]
               IETF, "Discussion List for IETF LLC Administrative
@@ -226,6 +251,10 @@ Table of Contents
               <https://github.com/ietf/saa/blob/master/unprofessional-
               commentary.md>.
 
+   [SAA-WIKIPEDIA]
+              Wikipedia, "Serjeant-at-Arms", n.d.,
+              <https://en.wikipedia.org/wiki/Serjeant-at-arms>.
+
 Appendix A.  Acknowledgements
 
    The following people have made contributions to this document:
@@ -247,6 +276,10 @@ Appendix A.  Acknowledgements
 Appendix B.  Changes
 
 B.1.  Since draft-eggert-bcp45bis-02
+
+   *  additional details about and guidelines for the SAA team, based on
+      a suggestion from Dhruv Dhody
+      (https://github.com/larseggert/bcp45bis/pull/1)
 
    *  remove reference to the IETF 110 attendees list, since those lists
       are being removed by the secretariat shoryly after each meeting
